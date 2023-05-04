@@ -1,0 +1,216 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.products-intro {
+    margin-bottom: 30px;
+}
+
+.products-intro-content {
+    align-items: flex-end;
+}
+
+.products-intro-content .products-filter {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.products-intro-text p {
+    margin-bottom: 10px;
+}
+
+.products-filter {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 10px;
+}
+
+.products-filter input {
+    width: 24px;
+    height: 24px;
+}
+
+.products-intro h1 {
+    margin-bottom: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    flex-basis: calc(33.33% - 20px);
+}
+
+.product.out-of-stock {
+    opacity: 0.5;
+}
+
+.product.hidden {
+    display: none;
+}
+
+.product-image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image:hover img {
+    transform: scale(105%);
+}
+
+.product-image img {
+    max-width: 100%;
+    transition: 0.2s;
+}
+
+.product-badges {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 1;
+    text-align: right;
+}
+
+.product-badge {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.badge-new,
+.badge-sale {
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.badge-new {
+    background-color: green;
+    color: white;
+}
+
+.badge-sale {
+    clear: both;
+    background-color: red;
+    color: white;
+}
+
+.product-content {
+    padding: 10px 15px;
+}
+
+.product-content h2 {
+    margin-bottom: 5px;
+}
+
+.product-content h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.product-content h2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.product-content p {
+    margin-bottom: 10px;
+}
+
+.product-price strong {
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+.product-price span {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.time-consumption {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.time-consumption h3 {
+    margin-bottom: 10px;
+}
+
+.toggle {
+    display: block;
+    background-color: grey;
+    border-radius: 24px;
+    width: 54px;
+    height: 28px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle.checked {
+    background-color: orangered;
+}
+
+.toggle.checked .toggle-button {
+    left: 28px;
+}
+
+.toggle.checked .toggle-button svg {
+    opacity: 1;
+}
+
+.toggle input {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.toggle-button svg {
+    fill: orangered;
+    opacity: 0;
+    transition: 0.2s;
+    width: 18px;
+    height: 18px;
+}
+
+.filters {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex-grow: 1;
+}
+
+.field {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    padding: 0 15px;
+}
