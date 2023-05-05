@@ -1,0 +1,123 @@
+{
+    "title": "Our Menu",
+    "description": "An athletic shoe is a name for a shoe designed for sporting and physical activities, and is different in style and build than a dress shoe. Originally used mainly during sports, today they are worn as casual footwear. They are often very comfortable and usually have lots of padding.",
+    "products": [
+        {
+            "id": "1",
+            "name": "Blue trainers",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+            "price": {
+                "regular": "110.00",
+                "current": "110.00"
+            },
+            "new": true,
+            "sale": false,
+            "url": "https://example.com/product1",
+            "image": "./images/image1.jpeg"
+        },
+        {
+            "id": "2",
+            "name": "Air flyers",
+            "description": "A, delectus dicta et ex illum ipsam iste iusto numquam",
+            "price": {
+                "regular": "100.00",
+                "current": "89.00"
+            },
+            "new": true,
+            "sale": true,
+            "url": "https://example.com/product2",
+            "image": "./images/image2.jpeg"
+        },
+        {
+            "id": "3",
+            "name": "Cheetah",
+            "description": "Odio officiis optio praesentium qui reprehenderit ullam velit",
+            "price": {
+                "regular": "80.00",
+                "current": "67.00"
+            },
+            "new": false,
+            "sale": true,
+            "url": "https://example.com/product3",
+            "image": "./images/image3.jpeg"
+        },
+        {
+            "id": "4",
+            "name": "White runners",
+            "description": "Iusto nesciunt optio similique reprehenderit suscipit unde",
+            "price": {
+                "regular": "150.00",
+                "current": "120.00"
+            },
+            "new": false,
+            "sale": true,
+            "url": "https://example.com/product4",
+            "image": "./images/image4.jpeg"
+        },
+        {
+            "id": "5",
+            "name": "Casual coolers",
+            "description": "Consectetur adipisicing elit ad autem ea ex id minus",
+            "price": {
+                "regular": "140.00",
+                "current": "140.00"
+            },
+            "new": false,
+            "sale": false,
+            "url": "https://example.com/product5",
+            "image": "./images/image5.jpeg"
+        },
+        {
+            "id": "6",
+            "name": "Ferrari speeders",
+            "description": "Numquam perspiciatis, reprehenderit suscipit unde vitae a asperiores",
+            "price": {
+                "regular": "98.00",
+                "current": "82.00"
+            },
+            "new": true,
+            "sale": true,
+            "url": "https://example.com/product6",
+            "image": "./images/image6.jpeg"
+        },
+        {
+            "id": "7",
+            "name": "Neon dancers",
+            "description": "Consequatur expedita impedit ipsum iure quo, sequi voluptatem",
+            "price": {
+                "regular": "120.00",
+                "current": "120.00"
+            },
+            "new": false,
+            "sale": false,
+            "url": "https://example.com/product7",
+            "image": "./images/image7.jpeg"
+        },
+        {
+            "id": "8",
+            "name": "Sprinters",
+            "description": "Reprehenderit suscipit unde suscipit unde vitae a asperiores",
+            "price": {
+                "regular": "100.00",
+                "current": "90.00"
+            },
+            "new": true,
+            "sale": true,
+            "url": "https://example.com/product8",
+            "image": "./images/image8.jpeg"
+        },
+        {
+            "id": "9",
+            "name": "Purple chasers",
+            "description": "Adipisicing elit ad autem ea ex id minus suscipit unde suscipit",
+            "price": {
+                "regular": "94.00",
+                "current": "94.00"
+            },
+            "new": true,
+            "sale": false,
+            "url": "https://example.com/product9",
+            "image": "./images/image9.jpeg"
+        }
+    ]
+}
