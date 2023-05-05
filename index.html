@@ -1,200 +1,249 @@
 <html lang="en">
-<head>
+  <head>
     <title>Menu</title>
-    <link rel="stylesheet" href="src/normalize.css" />
-    <link rel="stylesheet" href="src/styles.css" />
-</head>
-<body>
-<div class="container">
-    <div class="products-intro">
+  </head>
+  <body>
+    <div class="container">
+      <div class="products-intro">
         <h1>Our menu</h1>
 
         <div class="products-intro-content">
-            <div class="products-intro-text">
-                <p>You can taste our delicious offers that will take you to the land of taste where every spoon is filled with the essentials of you soul.</p>
-            </div>
+          <div class="products-intro-text">
+            <p>
+              You can taste our delicious offers that will take you to the land
+              of taste where every spoon is filled with the essentials of you
+              soul.
+            </p>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="filters">
+      <div class="filters">
         <div class="search-input">
-            <input
-                    id="search"
-                    type="text"
-                    placeholder="Search..."
-                    class="field"
-                    value=""
-            />
+          <input
+            id="search"
+            type="text"
+            placeholder="Search..."
+            class="field"
+            value=""
+          />
         </div>
 
         <div class="products-filter">
-            <input
-                    type="checkbox"
-                    name="toggle1"
-                    id="filter"
-                    value=""
+          <input type="checkbox" name="toggle1" id="filter" value="" />
+          <label for="filter">Show only available</label>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="product" data-available="true">
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image1.jpg?token=GHSAT0AAAAAACCHPEEDV35YPXJXJPZGLKO2ZCUU7AA"
+              alt=""
             />
-            <label for="filter">Show only available</label>
-        </div>
-    </div>
+            <span class="product-badges">
+              <span class="product-badge"
+                ><span class="badge-new">New</span></span
+              >
+            </span>
+          </a>
 
-    <div class="products">
-        <div class="product" data-available="true">
-            <a href="#" class="product-image">
-                <img src="src/images/image1.jpg" alt="" />
-                <span class="product-badges">
-                    <span class="product-badge"><span class="badge-new">New</span></span>
-                </span>
-            </a>
-
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Chicken piccata</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                <div class="product-price">
-                    <strong>$13.00</strong>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Chicken piccata</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <div class="product-price">
+              <strong>$13.00</strong>
             </div>
+          </div>
         </div>
 
         <div class="product" data-available="true">
-            <a href="#" class="product-image">
-                <img src="src/images/image2.jpg" alt="" />
-                <span class="product-badges">
-                    <span class="product-badge"><span class="badge-new">New</span></span>
-                    <span class="product-badge"><span class="badge-sale">Meal deal</span></span>
-                </span>
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image2.jpg?token=GHSAT0AAAAAACCHPEECB73E7E26HA7SMCT2ZCUVAMA"
+              alt=""
+            />
+            <span class="product-badges">
+              <span class="product-badge"
+                ><span class="badge-new">New</span></span
+              >
+              <span class="product-badge"
+                ><span class="badge-sale">Meal deal</span></span
+              >
+            </span>
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Greek rice bowl</a></h2>
-                <p>A, delectus dicta et ex illum ipsam iste iusto numquam</p>
-                <div class="product-price">
-                    <strong>$9.00</strong>
-                    <span>$11.00</span>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Greek rice bowl</a></h2>
+            <p>A, delectus dicta et ex illum ipsam iste iusto numquam</p>
+            <div class="product-price">
+              <strong>$9.00</strong>
+              <span>$11.00</span>
             </div>
+          </div>
         </div>
 
         <div class="product" data-available="true">
-            <a href="#" class="product-image">
-                <img src="src/images/image3.jpg" alt="" />
-                <span class="product-badges">
-                    <span class="product-badge"><span class="badge-sale">Meal deal</span></span>
-                </span>
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image3.jpg?token=GHSAT0AAAAAACCHPEEDY7N4TXXR34EVFIJ6ZCUVBCA"
+              alt=""
+            />
+            <span class="product-badges">
+              <span class="product-badge"
+                ><span class="badge-sale">Meal deal</span></span
+              >
+            </span>
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Beacon meatloaf</a></h2>
-                <p>Odio officiis optio praesentium qui reprehenderit ullam velit</p>
-                <div class="product-price">
-                    <strong>$17.00</strong>
-                    <span>$21.00</span>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Beacon meatloaf</a></h2>
+            <p>Odio officiis optio praesentium qui reprehenderit ullam velit</p>
+            <div class="product-price">
+              <strong>$17.00</strong>
+              <span>$21.00</span>
             </div>
+          </div>
         </div>
 
         <div class="product" data-available="true">
-            <a href="#" class="product-image">
-                <img src="src/images/image4.jpg" alt="" />
-                <span class="product-badges">
-                    <span class="product-badge"><span class="badge-sale">Meal deal</span></span>
-                </span>
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image4.jpg?token=GHSAT0AAAAAACCHPEEDBMMTXLOEJCVFY6TKZCUVBPQ"
+              alt=""
+            />
+            <span class="product-badges">
+              <span class="product-badge"
+                ><span class="badge-sale">Meal deal</span></span
+              >
+            </span>
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Spinach Alfredo pasta</a></h2>
-                <p>Iusto nesciunt optio similique reprehenderit suscipit unde</p>
-                <div class="product-price">
-                    <strong>$11.00</strong>
-                    <span>$13.00</span>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Spinach Alfredo pasta</a></h2>
+            <p>Iusto nesciunt optio similique reprehenderit suscipit unde</p>
+            <div class="product-price">
+              <strong>$11.00</strong>
+              <span>$13.00</span>
             </div>
+          </div>
         </div>
 
         <div class="product out-of-stock" data-available="false">
-            <a href="#" class="product-image">
-                <img src="src/images/image5.jpg" alt="" />
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image5.jpg?token=GHSAT0AAAAAACCHPEECUI6BCTWX6ZGZT3OCZCUVBZA"
+              alt=""
+            />
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Salmon veggie stake</a></h2>
-                <p>Consectetur adipisicing elit ad autem ea ex id minus</p>
-                <div class="product-price">
-                    <strong>$23.00</strong>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Salmon veggie stake</a></h2>
+            <p>Consectetur adipisicing elit ad autem ea ex id minus</p>
+            <div class="product-price">
+              <strong>$23.00</strong>
             </div>
+          </div>
         </div>
 
         <div class="product" data-available="true">
-            <a href="#" class="product-image">
-                <img src="src/images/image6.jpg" alt="" />
-                <span class="product-badges">
-                    <span class="product-badge"><span class="badge-new">New</span></span>
-                    <span class="product-badge"><span class="badge-sale">Meal deal</span></span>
-                </span>
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image6.jpg?token=GHSAT0AAAAAACCHPEECGSBPXQNJTXWGOQEOZCUVCIQ"
+              alt=""
+            />
+            <span class="product-badges">
+              <span class="product-badge"
+                ><span class="badge-new">New</span></span
+              >
+              <span class="product-badge"
+                ><span class="badge-sale">Meal deal</span></span
+              >
+            </span>
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Mexican salad</a></h2>
-                <p>Numquam perspiciatis, reprehenderit suscipit unde vitae a asperiores</p>
-                <div class="product-price">
-                    <strong>$8.00</strong>
-                    <span>$9.00</span>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Mexican salad</a></h2>
+            <p>
+              Numquam perspiciatis, reprehenderit suscipit unde vitae a
+              asperiores
+            </p>
+            <div class="product-price">
+              <strong>$8.00</strong>
+              <span>$9.00</span>
             </div>
+          </div>
         </div>
 
         <div class="product out-of-stock" data-available="false">
-            <a href="#" class="product-image">
-                <img src="src/images/image7.jpg" alt="" />
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image7.jpg?token=GHSAT0AAAAAACCHPEED3ZJUYNCF6WRVFR3SZCUVCUA"
+              alt=""
+            />
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Healthy plate crop</a></h2>
-                <p>Consequatur expedita impedit ipsum iure quo, sequi voluptatem</p>
-                <div class="product-price">
-                    <strong>$13.00</strong>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Healthy plate crop</a></h2>
+            <p>Consequatur expedita impedit ipsum iure quo, sequi voluptatem</p>
+            <div class="product-price">
+              <strong>$13.00</strong>
             </div>
+          </div>
         </div>
         <div class="product" data-available="true">
-            <a href="#" class="product-image">
-                <img src="src/images/image8.jpg" alt="" />
-                <span class="product-badges">
-                    <span class="product-badge"><span class="badge-new">New</span></span>
-                    <span class="product-badge"><span class="badge-sale">Meal deal</span></span>
-                </span>
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image8.jpg?token=GHSAT0AAAAAACCHPEEDE7NGQAHECJRKQRWOZCUVC6A"
+              alt=""
+            />
+            <span class="product-badges">
+              <span class="product-badge"
+                ><span class="badge-new">New</span></span
+              >
+              <span class="product-badge"
+                ><span class="badge-sale">Meal deal</span></span
+              >
+            </span>
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Honey mustard chicken</a></h2>
-                <p>Reprehenderit suscipit unde suscipit unde vitae a asperiores</p>
-                <div class="product-price">
-                    <strong>$14.00</strong>
-                    <span>$17.00</span>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Honey mustard chicken</a></h2>
+            <p>Reprehenderit suscipit unde suscipit unde vitae a asperiores</p>
+            <div class="product-price">
+              <strong>$14.00</strong>
+              <span>$17.00</span>
             </div>
+          </div>
         </div>
 
         <div class="product" data-available="true">
-            <a href="#" class="product-image">
-                <img src="src/images/image9.jpg" alt="" />
-                <span class="product-badges">
-                    <span class="product-badge"><span class="badge-new">New</span></span>
-                </span>
-            </a>
+          <a href="#" class="product-image">
+            <img
+              src="https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image9.jpg?token=GHSAT0AAAAAACCHPEEDE4WMWUILVRB67GGSZCUVDNA"
+              alt=""
+            />
+            <span class="product-badges">
+              <span class="product-badge"
+                ><span class="badge-new">New</span></span
+              >
+            </span>
+          </a>
 
-            <div class="product-content">
-                <h2 class="h3"><a href="#">Balanced keto</a></h2>
-                <p>Adipisicing elit ad autem ea ex id minus suscipit unde suscipit</p>
-                <div class="product-price">
-                    <strong>$12.00</strong>
-                </div>
+          <div class="product-content">
+            <h2 class="h3"><a href="#">Balanced keto</a></h2>
+            <p>
+              Adipisicing elit ad autem ea ex id minus suscipit unde suscipit
+            </p>
+            <div class="product-price">
+              <strong>$12.00</strong>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<script src="index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
