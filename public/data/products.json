@@ -4,11 +4,11 @@
     "products": [
         {
             "id": "1",
-            "name": "Blue trainers",
+            "name": "Chicken piccata",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
             "price": {
-                "regular": "110.00",
-                "current": "110.00"
+                "regular": "13.00",
+                "current": "13.00"
             },
             "new": true,
             "sale": false,
@@ -17,11 +17,11 @@
         },
         {
             "id": "2",
-            "name": "Air flyers",
+            "name": "Greek rice bowl",
             "description": "A, delectus dicta et ex illum ipsam iste iusto numquam",
             "price": {
-                "regular": "100.00",
-                "current": "89.00"
+                "regular": "11.00",
+                "current": "9.00"
             },
             "new": true,
             "sale": true,
@@ -30,11 +30,11 @@
         },
         {
             "id": "3",
-            "name": "Cheetah",
+            "name": "Beacon meatloaf",
             "description": "Odio officiis optio praesentium qui reprehenderit ullam velit",
             "price": {
-                "regular": "80.00",
-                "current": "67.00"
+                "regular": "21.00",
+                "current": "17.00"
             },
             "new": false,
             "sale": true,
@@ -43,11 +43,11 @@
         },
         {
             "id": "4",
-            "name": "White runners",
+            "name": "Spinach Alfredo pasta",
             "description": "Iusto nesciunt optio similique reprehenderit suscipit unde",
             "price": {
-                "regular": "150.00",
-                "current": "120.00"
+                "regular": "13.00",
+                "current": "11.00"
             },
             "new": false,
             "sale": true,
@@ -56,11 +56,11 @@
         },
         {
             "id": "5",
-            "name": "Casual coolers",
+            "name": "Salmon veggie stake",
             "description": "Consectetur adipisicing elit ad autem ea ex id minus",
             "price": {
-                "regular": "140.00",
-                "current": "140.00"
+                "regular": "23.00",
+                "current": "23.00"
             },
             "new": false,
             "sale": false,
@@ -69,11 +69,11 @@
         },
         {
             "id": "6",
-            "name": "Ferrari speeders",
+            "name": "Mexican salad",
             "description": "Numquam perspiciatis, reprehenderit suscipit unde vitae a asperiores",
             "price": {
-                "regular": "98.00",
-                "current": "82.00"
+                "regular": "9.00",
+                "current": "8.00"
             },
             "new": true,
             "sale": true,
@@ -82,11 +82,11 @@
         },
         {
             "id": "7",
-            "name": "Neon dancers",
+            "name": "Healthy plate crop",
             "description": "Consequatur expedita impedit ipsum iure quo, sequi voluptatem",
             "price": {
-                "regular": "120.00",
-                "current": "120.00"
+                "regular": "13.00",
+                "current": "13.00"
             },
             "new": false,
             "sale": false,
@@ -95,11 +95,11 @@
         },
         {
             "id": "8",
-            "name": "Sprinters",
+            "name": "Honey mustard chicken",
             "description": "Reprehenderit suscipit unde suscipit unde vitae a asperiores",
             "price": {
-                "regular": "100.00",
-                "current": "90.00"
+                "regular": "17.00",
+                "current": "14.00"
             },
             "new": true,
             "sale": true,
@@ -108,11 +108,11 @@
         },
         {
             "id": "9",
-            "name": "Purple chasers",
+            "name": "Balanced keto",
             "description": "Adipisicing elit ad autem ea ex id minus suscipit unde suscipit",
             "price": {
-                "regular": "94.00",
-                "current": "94.00"
+                "regular": "12.00",
+                "current": "12.00"
             },
             "new": true,
             "sale": false,
