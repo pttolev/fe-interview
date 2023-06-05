@@ -103,8 +103,8 @@
       },
       "new": true,
       "sale": true,
-      "url": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image8.jpg?token=GHSAT0AAAAAACCHPEEC5LWIHBIHYAHVOXI2ZCUVUWQ",
-      "image": "./images/image8.jpeg"
+      "url": "https://example.com/product8",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image8.jpg?token=GHSAT0AAAAAACCHPEEC5LWIHBIHYAHVOXI2ZCUVUWQ"
     },
     {
       "id": "9",
