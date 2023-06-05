@@ -8,11 +8,11 @@ import './assets/css/normalize.css';
 export default {
   name: 'App',
   created() {
-    fetch('./../public/data/products.json')
+    fetch(
+      'https://raw.githubusercontent.com/pttolev/fe-interview/vue/public/data/products.json'
+    )
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-
         return data;
       });
   },
