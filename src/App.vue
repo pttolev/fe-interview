@@ -3,8 +3,6 @@
 </template>
 
 <script>
-import './assets/css/normalize.css';
-
 export default {
   name: 'App',
   created() {
