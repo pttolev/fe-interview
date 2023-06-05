@@ -1,0 +1,123 @@
+{
+  "title": "Our Menu",
+  "description": "You can taste our delicious offers that will take you to the land of taste where every spoon is filled with the essentials of you soul.",
+  "products": [
+    {
+      "id": "1",
+      "name": "Chicken piccata",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+      "price": {
+        "regular": "13.00",
+        "current": "13.00"
+      },
+      "new": true,
+      "sale": false,
+      "url": "https://example.com/product1",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image1.jpg?token=GHSAT0AAAAAACCHPEEDQIH3QY4UUT3NFWAWZCUVR5A"
+    },
+    {
+      "id": "2",
+      "name": "Greek rice bowl",
+      "description": "A, delectus dicta et ex illum ipsam iste iusto numquam",
+      "price": {
+        "regular": "11.00",
+        "current": "9.00"
+      },
+      "new": true,
+      "sale": true,
+      "url": "https://example.com/product2",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image2.jpg?token=GHSAT0AAAAAACCHPEEDNUHEXXAD7KHLKL5WZCUVSNQ"
+    },
+    {
+      "id": "3",
+      "name": "Beacon meatloaf",
+      "description": "Odio officiis optio praesentium qui reprehenderit ullam velit",
+      "price": {
+        "regular": "21.00",
+        "current": "17.00"
+      },
+      "new": false,
+      "sale": true,
+      "url": "https://example.com/product3",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image3.jpg?token=GHSAT0AAAAAACCHPEEC47U25GHFQ2BZ4DDKZCUVTKA"
+    },
+    {
+      "id": "4",
+      "name": "Spinach Alfredo pasta",
+      "description": "Iusto nesciunt optio similique reprehenderit suscipit unde",
+      "price": {
+        "regular": "13.00",
+        "current": "11.00"
+      },
+      "new": false,
+      "sale": true,
+      "url": "https://example.com/product4",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image4.jpg?token=GHSAT0AAAAAACCHPEEDYYHVAICIITRZTMCEZCUVTTQ"
+    },
+    {
+      "id": "5",
+      "name": "Salmon veggie stake",
+      "description": "Consectetur adipisicing elit ad autem ea ex id minus",
+      "price": {
+        "regular": "23.00",
+        "current": "23.00"
+      },
+      "new": false,
+      "sale": false,
+      "url": "https://example.com/product5",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image5.jpg?token=GHSAT0AAAAAACCHPEECK5TIOZ3BK2JVY674ZCUVT4Q"
+    },
+    {
+      "id": "6",
+      "name": "Mexican salad",
+      "description": "Numquam perspiciatis, reprehenderit suscipit unde vitae a asperiores",
+      "price": {
+        "regular": "9.00",
+        "current": "8.00"
+      },
+      "new": true,
+      "sale": true,
+      "url": "https://example.com/product6",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image6.jpg?token=GHSAT0AAAAAACCHPEEC7ROBG7QRTE2PZWEQZCUVUGA"
+    },
+    {
+      "id": "7",
+      "name": "Healthy plate crop",
+      "description": "Consequatur expedita impedit ipsum iure quo, sequi voluptatem",
+      "price": {
+        "regular": "13.00",
+        "current": "13.00"
+      },
+      "new": false,
+      "sale": false,
+      "url": "https://example.com/product7",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image7.jpg?token=GHSAT0AAAAAACCHPEEDVVD2HY5DW64K3BEYZCUVUOQ"
+    },
+    {
+      "id": "8",
+      "name": "Honey mustard chicken",
+      "description": "Reprehenderit suscipit unde suscipit unde vitae a asperiores",
+      "price": {
+        "regular": "17.00",
+        "current": "14.00"
+      },
+      "new": true,
+      "sale": true,
+      "url": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image8.jpg?token=GHSAT0AAAAAACCHPEEC5LWIHBIHYAHVOXI2ZCUVUWQ",
+      "image": "./images/image8.jpeg"
+    },
+    {
+      "id": "9",
+      "name": "Balanced keto",
+      "description": "Adipisicing elit ad autem ea ex id minus suscipit unde suscipit",
+      "price": {
+        "regular": "12.00",
+        "current": "12.00"
+      },
+      "new": true,
+      "sale": false,
+      "url": "https://example.com/product9",
+      "image": "https://raw.githubusercontent.com/pttolev/fe-interview/js-half/assets/images/image9.jpg?token=GHSAT0AAAAAACCHPEEDVJTQSKL3MAVFNRHYZCUVU7Q"
+    }
+  ]
+}
