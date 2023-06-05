@@ -1,6 +1,20 @@
 <template>
-  <div id="app">My Vue.js application</div>
+  <div class="container" id="app">
+    <products />
+  </div>
 </template>
+
+<script>
+import './assets/css/app.css';
+import Products from './views/Products.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Products,
+  },
+};
+</script>
 
 <script>
 export default {
