@@ -2,8 +2,8 @@ Create the product page following the given criteria.
 
 Design criteria:
 
-- Find the design here: https://pasteboard.co/G3NRj9aICvFQ.png
-- Information for the products can be found in the public folder.
+- Find the design here: https://pasteboard.co/Dr2XJW7j4Hay.png
+- Products' information is fetched in App.vue.
 - 1180px width of the page.
 - 30px spacing between the products.
 - Other spacings, font-sizes, colors - on your decision.
