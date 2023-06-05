@@ -1,0 +1,35 @@
+.products-intro {
+  margin-bottom: 30px;
+}
+
+.products-intro h1 {
+  margin-bottom: 10px;
+}
+
+.products-filter {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.products-filter input {
+  width: 24px;
+  height: 24px;
+}
+
+.filters {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.filters .search-input {
+  flex-grow: 1;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
